@@ -37,7 +37,7 @@ client.on('message', message => {
 client.on('message', function(message) {
 	const myID = "498177367152263178";
     let args = message.content.split(" ").slice(1).join(" ");
-    if(message.content.startsWith(prefix + "setavatar
+    if(message.content.startsWith(prefix + "setavatar")) {
 		        if(message.author.id !== myID) return;
             if(!args) return message.reply('اكتب الحالة اللي تريدها.');
         client.user.setUsername(args);
