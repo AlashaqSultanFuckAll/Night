@@ -1,2 +1,3 @@
-# MuSiic
-Bot MuSiic by L kahrba.
+# BroadCast Bot
+
+BroadCast bot by alashaq
